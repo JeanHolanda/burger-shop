@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+body {
+    background-image: url('./assets/Gemini_Generated_Image_b5rxalb5rxalb5rx.png');
+    background-size: cover;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 3%;
+}
+
+button {
+    height: 70px;
+    width: 135px;
+    background-color: #79CB15;
+    color: rgba(41, 38, 41);
+    font-weight: 600;
+    font-size: 18px;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+button:active {
+    opacity: 0.6;
+}
+
+main {
+    margin-top: 2%;
+}
+
+ul {
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    justify-content: center;
+    gap: 4%;
+    margin-bottom: 2%;
+    list-style: none;
+    color: #FFF;
+}
+
+li {
+    background-color: rgba(34, 34, 34, 0.6);
+    height: 250px;
+    width: 200px;
+    border: 3.4px solid #8133FF;
+    border-radius: 5px;
+    color: #FFF;
+    padding: 9px;
+    font-size: 12px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+li:hover {
+    transform: scale(1.1);
+    transition: 0.35s ease-in-out;
+}
+
+li:active {
+    transform: scale(1.15);
+    transition: 0.2s ease-in-out;
+}
+
+h1 {
+    font-weight: 500;
+}
+
+p {
+    font-size: 17px;
+    font-weight: 600;
+    color: #4ded43;
+}
+
+img {
+    width: 100%;
+    height: 150px;
+    border-radius: 2px;
+    margin-bottom: 7px;
+}
+
+@media screen and (max-width: 700px){
+
+    body {
+        background-size:auto;
+    } 
+
+    header {
+        gap: 10px;
+        margin: 7% 10px;
+    }
+
+    button {
+        height: 60px;
+        width: 120px;
+        font-size: 15px;
+    }
+
+    main {
+        margin-right: 9%;
+    }
+
+    ul {
+        grid-template-columns: 180px 120px;
+    }
+
+    li {
+        height: 200px;
+        width: 160px;
+    }
+
+    h1 {
+        font-size: 16px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+    img {
+        height: 100px;
+        width: 100%;
+    }
+}
