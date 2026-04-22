@@ -63,7 +63,7 @@ The main goal of this project is to improve my JavaScript skills, especially:
 ## 📸 Preview
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/JeanHolanda/Projeto-          Hamburgueria/c1110a322e94803ef315e2b69b995f0a15a8518c/assets/Minimalist%20Website%20Launch%20Computer%20Mockup%20Instagram%20Post.png" width="650">
+  <img src="https://raw.githubusercontent.com/JeanHolanda/Projeto-Hamburgueria/c1110a322e94803ef315e2b69b995f0a15a8518c/assets/Minimalist%20Website%20Launch%20Computer%20Mockup%20Instagram%20Post.png" width="650">
 </p>
 
 ---
